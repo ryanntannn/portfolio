@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ryan Tan's Portfolio</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="intro">
+            <div class="header">ryan tan</div>
+            <a href="mailto:ryanntannn@gmail.com" class="contact">contact</a>
+        </div>
+        <div id="folders">
+            <button class="folder" onclick="MakeVisible('about')">ABOUT_ME</button>
+            <button class="folder" onclick="MakeVisible('fyp')">FYP2020</button>
+            <button class="folder" onclick="MakeVisible('estella')">ESTELLA</button>
+            <button class="folder" onclick="MakeVisible('loki')">LOKI</button>
+            <button class="folder" onclick="MakeVisible('augment')">AUGMENT</button>
+            <button class="folder last" onclick="MakeVisible('fishing')">FISHING_GAME</button>
+        </div>
+
+        <div class= "content">
+
+            <div class="content-block" id="fyp" style="display:none">
+                <h1>FYP2020 - Project Aegis</h1>
+                <h3>Q1-Q3 2020</h3>
+                <br>
+                <img style="width: 100%" src="img/fyp.gif">
+                <br>
+                <b>Fig 1. an early demo showcasing gun mechanics</b>
+                <br>
+                <br>
+                <p>Project Aegis was a Virtual Reality project done for the Singapore Armed Forces for my 
+                    Final Year Project in Singapore Polytechnic. The size of the team was 10 people, double
+                    the average size of an average FYP team. I undertook the role of one of the two programming leads,
+                    and helped plan the technical aspects of the project and helped streamline the programming workflow
+                    by enforcing a scrum board and introducing a pub-sub code design system.
+                    <br>
+                    <br>
+                    Personally, I took up tasks such as programming a gun system that allows realistic replication of guns,
+                    including a safety and cocking mechanism. Unfortunately, I am unable to share much about this project as
+                    our client has requested for us not to disclose too much about the project.
+                </p>
+            </div>
+            <div class="content-block" id="estella" style="display:none">
+                <h1>Estella</h1>
+                <h3>Q3-Q4 2019</h3>
+                <br>
+                <img style="width: 50%;" src="img/estella-poster.jpg">
+                <br>
+                <b>Fig 1. poster made by me showcasing the 3 bosses in the game</b>
+                <br>
+                <br>
+                <p>
+                    Estella was a Single Player Role Playing Game made for a School Project in my second year of education in Singapore Polytechnic.
+                    The player plays as a Estella, a mage who has mastery of 5 elements, fire, water, wind, earth and lightning, and can combine the elements
+                    through numerous interactions to unleash powerfull combinations on her foes. Estella's hometown is attacked by Skylark, a ruthless
+                    dictator seeking to take over the world. Estella ventures accross the world to seek revenge on her hometown and to save the world
+                    from evil skylark </p>
+
+                    <br><br>
+
+                    <img style="width: 100%;" src="img/ezgif.com-optimize.gif">
+                    <br>
+                    <b>Fig 2. player fighting a witch</b>
+
+                    <br><br>
+                    <p>
+                    I worked on the level design of the game for 2 levels, Estella's hometown and the dessert city. Through this project
+                    I learnt many terraining techniques and researched into level design principals. I drew inspiration from masterpieces
+                    such as Breath Of The Wild and Guild Wars 2 for my colour pallette and overall aesthetic. I also designed the user interface
+                    and created a dialog and questing system that guides the players through the game and its story. I also designed and programmed
+                    the second boss fight, the ghost of an ancient priest who uses magic pillars to crush the player.
+                    </p>
+                <br><br>
+
+            </div>
+            <div class="content-block" id="fishing" style="display:none">
+            
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+html{
+    background-color: rgb(250, 238, 215);
+    color: #202020;
+}
+
+.intro {text-align: center;}
+
+.intro .header{
+    margin-top: 15vh;
+    font-size: 5em;
+    text-align: center;
+}
+
+.contact{
+    text-decoration: none;
+    font-size: 1.3em;
+    text-align: center;
+    display: inline;
+    border: none;
+    color: #5040EE;
+}
+
+#folders{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.folder{
+    background-image: url(img/folder-icon.png);
+     background-repeat: no-repeat;
+     background-size: 120px 120px;
+    width: 100px;
+    height: 120px;
+    border: none;
+    padding-top: 10px;
+    font-weight: bold;
+    background-color: rgb(250, 238, 215);
+}
+
+.folder.last{
+    width: 120px;
+    
+    padding-left: 0;
+}
+
+.content{
+    margin-top: 10em;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10em;
+}
+
+.content-block p{
+    text-align: left;
+    margin:0 5em 0 5em;
+    font-size:20px;
+}
