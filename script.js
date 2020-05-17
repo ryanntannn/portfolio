@@ -6,5 +6,5 @@ function MakeVisible(elementId){
     }
 
     currentVisible = document.getElementById(elementId);
-    currentVisible.style.display = "block";
+    currentVisible.style.display = "inline";
 }
